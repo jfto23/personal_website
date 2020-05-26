@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="{{ 'assets/css/header.css' | relative_url }}">
 <div class=nav>
+	{{ page.url }}
 	{% if page.url == "/" %}
 		<a href="{{ '/' | relative_url }}" class=current>home</a> / 
 	{% else %}
