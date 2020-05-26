@@ -5,6 +5,7 @@ body {
 	margin-top: 40px;
 	font-size: 14px;
 	text-align: center;
+	overflow-y: scroll;
 
 }
 
@@ -19,6 +20,18 @@ body {
 img {
 	max-width:100%;
 	max-height:100%;
+}
+
+::-webkit-scrollbar {
+	background-color: #1c1e1f;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: #181a1b;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #2f3234;
 }
 
 @media only screen and (max-width: 1000px) {
