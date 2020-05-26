@@ -1,0 +1,28 @@
+body {
+	background-color: #1c1e1f;
+	color: #e8e6e3;
+	font-family: "Montserrat";
+	margin-top: 40px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.maincontainer {
+	margin: auto;
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+	margin-top: 100px;
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.maincontainer {
+		width: 100%;
+	}
+}

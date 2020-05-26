@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="../assets/css/header.css">
+<div class=nav>
+	{% if page.url == "/" %}
+		<a href="/" class=current>home</a> / 
+	{% else %}
+		<a href="/">home</a> / 
+	{% endif %}
+
+	{% if page.url == "/resume/" %}
+		<a href="/resume" class=current>resume</a> / 
+	{% else %}
+		<a href="/resume">resume</a> / 
+	{% endif %}
+
+	{% if page.url == "/projects/" %}
+		<a href="/projects" class=current>projects</a> / 
+	{% else %}
+		<a href="/projects">projects</a> / 
+	{% endif %}
+
+	{% if page.url == "/contact/" %}
+		<a href="/contact" class=current>contact</a>
+	{% else %}
+		<a href="/contact">contact</a>
+	{% endif %}
+</div>
+
