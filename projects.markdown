@@ -1,5 +1,6 @@
 ---
 layout: page
+tite: projects
 ---
 
 ## zlibtui
@@ -11,7 +12,7 @@ __[Source code](https://github.com/jfto23/zlibtui)__
 ![](/assets/images/zlibtui_pic.png)
 
 The app was written with Python using
-[blessings](https://pypi.org/project/blessings/) which is a wrapper for curses.
+[blessed](https://pypi.org/project/blessed/) which is a wrapper for curses.
 I used PyTest for testing the features. The project is 
 deployed on PyPI. You can view the PyPI page [here](https://pypi.org/project/zlibtui/).
 
