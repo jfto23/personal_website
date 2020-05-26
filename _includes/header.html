@@ -7,9 +7,9 @@
 	{% endif %}
 
 	{% if page.url == "/resume/" %}
-		<a href="{{ 'resume.markdown' | relative_url }}" class=current>resume</a> / 
+		<a href="{{ relative_url }}" class=current>resume</a> / 
 	{% else %}
-		<a href="{{ 'resume.markdown' | relative_url }}">resume</a> / 
+		<a href="{{ relative_url }}">resume</a> / 
 	{% endif %}
 
 	{% if page.url == "/projects/" %}
