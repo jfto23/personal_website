@@ -1,25 +1,24 @@
 <link rel="stylesheet" href="{{ 'assets/css/header.css' | relative_url }}">
 <div class=nav>
-	{{ page.url }}
 	{% if page.url == "/" %}
 		<a href="{{ '/' | relative_url }}" class=current>home</a> / 
 	{% else %}
 		<a href="{{ '/' | relative_url }}">home</a> / 
 	{% endif %}
 
-	{% if page.url == "/resume" %}
+	{% if page.url == "/resume.html" %}
 		<a href="{{ 'resume' | relative_url }}" class=current>resume</a> / 
 	{% else %}
 		<a href="{{ 'resume' | relative_url }}">resume</a> / 
 	{% endif %}
 
-	{% if page.url == "/projects" %}
+	{% if page.url == "/projects.html" %}
 		<a href="{{ 'projects' | relative_url }}" class=current>projects</a> / 
 	{% else %}
 		<a href="{{ 'projects' | relative_url }}">projects</a> / 
 	{% endif %}
 
-	{% if page.url == "/contact" %}
+	{% if page.url == "/contact.html" %}
 		<a href="{{ 'contact' | relative_url }}" class=current>contact</a>
 	{% else %}
 		<a href="{{ 'contact' | relative_url }}">contact</a>
