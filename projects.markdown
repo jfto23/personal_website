@@ -1,6 +1,6 @@
 ---
 layout: page
-tite: projects
+title: projects
 ---
 
 ## zlibtui
