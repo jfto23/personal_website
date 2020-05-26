@@ -1,15 +1,15 @@
 <link rel="stylesheet" href="{{ 'assets/css/header.css' | relative_url }}">
 <div class=nav>
 	{% if page.url == "/" %}
-		<a href="/" class=current>home</a> / 
+		<a href="{{ '' | relative_url }}" class=current>home</a> / 
 	{% else %}
-		<a href="/">home</a> / 
+		<a href="{{ '' | relative_url }}">home</a> / 
 	{% endif %}
 
 	{% if page.url == "/resume/" %}
-		<a href="resume" class=current>resume</a> / 
+		<a href="{{ 'resume' | relative_url }}" class=current>resume</a> / 
 	{% else %}
-		<a href="resume">resume</a> / 
+		<a href="{{ 'resume' | relative_url }}">resume</a> / 
 	{% endif %}
 
 	{% if page.url == "/projects/" %}
