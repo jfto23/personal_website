@@ -2,7 +2,8 @@ body {
 	background-color: #1c1e1f;
 	color: #e8e6e3;
 	font-family: "Montserrat";
-	margin-top: 40px;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	font-size: 14px;
 	text-align: center;
 	overflow-y: scroll;
@@ -16,6 +17,8 @@ body {
 	text-align: left;
 	margin-top: 100px;
 }
+
+
 
 img {
 	max-width:100%;
