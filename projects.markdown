@@ -43,7 +43,7 @@ _superscheduler_ is an online schedule builder.
 __[Source code](https://github.com/jfto23/superscheduler/)__ | __[Live
 version](https://jfto23.github.io/superscheduler/)__
 
-![](/assets/images/superscheduler_nord.png)
+![](/assets/images/superscheduler.png)
 
 The app was made with VueJS and uses local storage to save the schedule and the
 options. 
