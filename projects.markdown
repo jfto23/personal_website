@@ -18,12 +18,13 @@ deployed on PyPI. You can view the PyPI page [here](https://pypi.org/project/zli
 
 ## mytype
 
-[_mytype_](https://serene-dawn-01436.herokuapp.com) is an online typing game
+_mytype_ is an online typing game
 inspired by
 the popular website [Typeracer](https://typeracer.com). 
 
 __[Source
-code](https://github.com/jfto23/mytype)__
+code](https://github.com/jfto23/mytype)__ | __[Live
+version](https://serene-dawn-01436.herokuapp.com)__
 
 ![](/assets/images/mytype_pic.png)
 
@@ -34,3 +35,15 @@ the frontend. The web app is deployed on Heroku.
 There are currently 1000 texts available. Each text is taken directly from
 Typeracer through their [database](http://typeracerdata.com/texts). For storage
 reasons, only the top three scores are saved.
+
+## superscheduler
+
+_superscheduler_ is an online schedule builder.
+
+__[Source code](https://github.com/jfto23/superscheduler/)__ | __[Live
+version](https://jfto23.github.io/superscheduler/)__
+
+![](/assets/images/superscheduler.png)
+
+The app was made with VueJS and uses local storage to save the schedule and the
+options. 
