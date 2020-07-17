@@ -11,10 +11,15 @@ __[Source code](https://github.com/jfto23/zlibtui)__
 
 ![](/assets/images/zlibtui_pic.png)
 
+<details><summary>Read More</summary>
+<p>
 The app was written with Python using
-[blessed](https://pypi.org/project/blessed/) which is a wrapper for curses.
+<a href="https://pypi.org/project/blessed/">blessed</a> which is a wrapper for curses.
 I used PyTest for testing the features. The project is 
-deployed on PyPI. You can view the PyPI page [here](https://pypi.org/project/zlibtui/).
+deployed on PyPI. You can view the PyPI page 
+<a href="https://pypi.org/project/zlibtui/">here</a>.
+</p>
+</details>
 
 ## mytype
 
@@ -28,13 +33,18 @@ version](https://serene-dawn-01436.herokuapp.com)__
 
 ![](/assets/images/mytype_pic.png)
 
+<details><summary>Read More</summary>
+<p>
 The website uses a mySQL database hosted on JawsDB for storing the texts and
 their respective top scores. The backend was built with NodeJS and ExpressJS. I used VueJS for
 the frontend. The web app is deployed on Heroku.
 
 There are currently 1000 texts available. Each text is taken directly from
-Typeracer through their [database](http://typeracerdata.com/texts). For storage
+Typeracer through their <a href="http://typeracerdata.com/texts">database</a>. For storage
 reasons, only the top three scores are saved.
+</p>
+</details>
+
 
 ## superscheduler
 
@@ -45,5 +55,10 @@ version](https://jfto23.github.io/superscheduler/)__
 
 ![](/assets/images/superscheduler.png)
 
+<details><summary>Read More</summary>
+<p>
 The app was made with VueJS and uses local storage to save the schedule and the
 options. 
+</p>
+</details>
+
