@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Jean-Francois To</title>
+	<title>Jean-François To</title>
 	<link rel="stylesheet" href="{{ 'assets/css/page.css' | relative_url }}">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	{% include header.html %}
-	<div class=maincontainer>
-		{{ content }}
+	<div class="main">
+		<div class="name">Jean-François To</div>
+			{% include header.html %}
+			<div class="content">
+				{{ content }}
+			</div>
 	</div>
 </body>
 </html>
