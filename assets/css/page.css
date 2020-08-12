@@ -4,13 +4,15 @@
 }
 
 body {
+	background-color: #121212;
+	color: #e3e6e8;
 	padding: 0px;
 	line-height: 1.6;
 	font-family: 'Montserrat', sans-serif;
 }
 
 a {
-	color: black;
+	color: #e3e6e8;
 	margin-right: 5px;
 	font-weight: bold;
 }
@@ -43,8 +45,3 @@ img {
 	img {max-width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-	body {background-color: #121212}
-	body {color: #e3e6e8}
-	a {color: #e3e6e8}
-}

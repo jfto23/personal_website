@@ -7,7 +7,7 @@ title: projects
 
 _mytype_ is an online typing game
 inspired by
-the popular website [Typeracer](https://typeracer.com). 
+the popular website Typeracer.
 
 __[Source
 code](https://github.com/jfto23/mytype)__ | __[Live
@@ -21,7 +21,7 @@ _orchid_ is a space shooter written in Rust.
 
 __[Source
 code](https://github.com/jfto23/orchid)__ | __[Live
-version](https:://github.com/jfto23/orchid)__
+version](https://jfto23.github.io/orchid/)__
 
 ![](./assets/images/orchid_pic.png)
 
@@ -35,8 +35,8 @@ __[Source code](https://github.com/jfto23/zlibtui)__
 
 ## schedule\_module
 
-_schedule_module_ is a script that parses ics files which can be integrated with
-Polybar.
+_schedule_module_ is a script that parses ics files and shows the current and
+next course of the day. It can also work as a module for Polybar.
 
 __[Source
 code](https://github.com/jfto23/schedule_module)__
