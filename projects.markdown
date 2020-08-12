@@ -17,7 +17,7 @@ version](https://serene-dawn-01436.herokuapp.com)__
 
 ## orchid
 
-_orchid_ is a space shooter written in Rust.
+_orchid_ is a local multiplayer shoot 'em up game written in Rust.
 
 __[Source
 code](https://github.com/jfto23/orchid)__ | __[Live
