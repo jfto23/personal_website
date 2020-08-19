@@ -17,7 +17,7 @@ version](https://serene-dawn-01436.herokuapp.com)__
 
 ## jf-photo
 
-_jf-photo_ my personal photgraphy archive
+_jf-photo_ is my personal photgraphy archive
 
 __[Source
 code](https://github.com/jfto23/jf-photo)__ | __[Live
