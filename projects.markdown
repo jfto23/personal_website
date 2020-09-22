@@ -44,3 +44,13 @@ __[Source
 code](https://github.com/jfto23/schedule_module)__
 
 ![](./assets/images/schedule_module_pic.png)
+
+## chip-8
+
+Chip-8 interpreter that can play basic games such as tetris, space invaders and
+pong.
+
+__[Source code](https://github.com/jfto23/chip-8)__
+
+![](./assets/images/chip8_tetris.png)
+
